@@ -2,6 +2,7 @@
   padding: 5em 8em;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  place-items: center;
 }
 
 .left {
@@ -28,4 +29,35 @@
   /* or 34px */
 
   color: #454545;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.buttons :last-child {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 129%;
+  /* identical to box height, or 31px */
+
+  background: linear-gradient(180deg, #1b18f9 0%, #1b18f9 46.35%, #e146ad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.right {
+  display: grid;
+  place-items: center;
+  padding: 3em;
+  max-width: 100%;
+}
+
+.right img {
+  max-width: 100%;
+  max-height: 100%;
 }

@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  background: linear-gradient(180deg, #fffdf4 0%, #fffceb 100%);
 }
 
 code {
@@ -14,6 +15,7 @@ code {
 }
 
 .btn {
+  width: fit-content;
   font-weight: 600;
   font-size: 24px;
   line-height: 146.5%;
