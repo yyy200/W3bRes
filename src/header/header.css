@@ -1,0 +1,33 @@
+.hhh {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.2em;
+  align-items: center;
+  padding: 1em 8em;
+}
+
+.logo {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #454545;
+  gap: 0.2em;
+}
+
+ul {
+  display: flex;
+  gap: 2em;
+  font-size: 18px;
+  color: #454545;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: #454545;
+  text-decoration: none;
+}

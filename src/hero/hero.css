@@ -1,0 +1,31 @@
+.hero {
+  padding: 5em 8em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  max-width: 40ch;
+}
+
+.left h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 129%;
+  /* or 72px */
+
+  background: linear-gradient(180deg, #1b18f9 0%, #1b18f9 46.35%, #e146ad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.left p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 171.5%;
+  /* or 34px */
+
+  color: #454545;
+}
